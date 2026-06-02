@@ -4,7 +4,7 @@
 
 ### 💻 Python Developer | 🌐 Full-Stack Learner | 🤖 AI Enthusiast
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Python+Developer;Django+Developer;Web+Developer;AI+Explorer;Building+Projects+That+Solve+Problems" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Web+Developer;Django+Developer;Web+Developer;AI+Explorer;Building+Projects+That+Solve+Problems" />
 
 <br>
 
@@ -130,17 +130,6 @@ Explore my latest projects, skills, achievements, and contact information.
 
 ---
 
-# 📊 GitHub Analytics
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=HevinPatoliya7\&show_icons=true\&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=HevinPatoliya7\&layout=compact\&theme=tokyonight)
-
-</div>
-
----
 
 # 🤝 Let's Connect
 
