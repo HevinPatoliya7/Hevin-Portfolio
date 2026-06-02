@@ -1,80 +1,166 @@
-# Harsh Goyal — Developer & Designer Portfolio
+<div align="center">
 
-A dark-themed personal portfolio for **Harsh Goyal** — Computer Science graduate from NSUT, currently a Content R&D Trainee at PhysicsWallah. Focused on UI/UX, front-end development, and GenAI integration.
+# 🚀 Hevin Patoliya
 
-Built with **React + TypeScript + Vite + Tailwind CSS + Framer Motion**. Designed for one-click deployment on **Vercel**.
+### 💻 Python Developer | 🌐 Full-Stack Learner | 🤖 AI Enthusiast
 
-## Stack
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Python+Developer;Django+Developer;Web+Developer;AI+Explorer;Building+Projects+That+Solve+Problems" />
 
-- React 18 / TypeScript
-- Vite (build tool)
-- Tailwind CSS (utility-first styling)
-- Framer Motion (animations + scroll effects)
-- Lucide React (icons)
-- Kanit font (Google Fonts, weights 300–900)
+<br>
 
-## Sections
+[![Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Now-blue?style=for-the-badge)](https://mrhevin.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/hevinpatoliya9106011772/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge\&logo=github)](https://github.com/HevinPatoliya7)
 
-1. **Hero** — name, tagline, magnetic-hover portrait
-2. **About** — bio + skills grouped by Languages / Frameworks / Tools / AI
-3. **Services** — UI/UX Design, Web Design, Front-end Development, GenAI Integration
-4. **Projects** — sticky-stacking cards for AI Tutor, PiLearn, ResumeIQ, Notch
-5. **Contact** — Email, WhatsApp, LinkedIn, GitHub
+<br>
 
-## Run locally
+### 🚀 Building • Learning • Growing
 
-```bash
-npm install
-npm run dev      # http://localhost:5173
-npm run build    # production build → /dist
-npm run preview  # serve /dist locally
-```
+</div>
 
-## Deploy to Vercel
+---
 
-Push to GitHub → import the repo at [vercel.com/new](https://vercel.com/new) → click Deploy. No environment variables needed.
+# 👨‍💻 About Me
 
-## Project structure
+Hello! I'm **Hevin Patoliya**, an aspiring Python Developer passionate about building practical software solutions and modern web applications.
 
-```
-src/
-├── App.tsx                    # composes all sections
-├── main.tsx                   # React entry
-├── index.css                  # global styles + .hero-heading gradient
-└── components/
-    ├── HeroSection.tsx        # navbar, massive heading, magnetic portrait
-    ├── AboutSection.tsx       # bio, animated text, skills grid
-    ├── ServicesSection.tsx    # white section, 4 numbered services
-    ├── ProjectsSection.tsx    # sticky-stacking project cards
-    ├── ContactSection.tsx     # 4 contact methods with icons
-    │
-    ├── ContactButton.tsx      # gradient pill CTA
-    ├── LiveProjectButton.tsx  # ghost outline pill
-    ├── FadeIn.tsx             # whileInView animation wrapper
-    ├── Magnet.tsx             # mouse-following magnetic hover
-    └── AnimatedText.tsx       # char-by-char scroll-driven reveal
-```
+🎯 Focused on Python, Django, APIs, and AI-powered applications.
 
-## Featured projects
+💡 I enjoy transforming ideas into real projects while continuously learning new technologies.
 
-| Project | Live | Built with |
-|---|---|---|
-| ResumeIQ | [resumeiq-harsh.vercel.app](https://resumeiq-harsh.vercel.app) | React, Gemini API, Vercel |
-| Notch | [notch-zeta.vercel.app](https://notch-zeta.vercel.app) | React, Tailwind, Framer Motion |
+🌱 Currently seeking Python Internship opportunities and contributing to personal projects.
 
-## Customisation
+---
 
-| Want to change | Open this file |
-|---|---|
-| Name, nav links, hero text | `src/components/HeroSection.tsx` |
-| About paragraph, skills list | `src/components/AboutSection.tsx` |
-| Services list | `src/components/ServicesSection.tsx` (`SERVICES` array) |
-| Projects, screenshots, live URLs | `src/components/ProjectsSection.tsx` (`PROJECTS` array) |
-| Contact methods | `src/components/ContactSection.tsx` (`CONTACT_METHODS` array) |
-| Project screenshots | drop new images in `public/` and reference as `/filename.png` |
-| Brand gradient, font, dark colour | `src/index.css` and `tailwind.config.js` |
-| Page title, meta description | `index.html` |
+# 🌟 Portfolio Preview
 
-## Credits
+### 🔗 Live Website
 
-Designed & built by **Harsh Goyal** · [LinkedIn](https://www.linkedin.com/in/harsh-goyal-7900b2256/) · [GitHub](https://github.com/harshgoyal27)
+👉 **https://mrhevin.vercel.app/**
+
+Explore my latest projects, skills, achievements, and contact information.
+
+---
+
+# ⚡ What You'll Find
+
+✨ Modern Responsive Design
+
+🎨 Beautiful User Interface
+
+📱 Mobile-Friendly Experience
+
+🚀 Fast Performance
+
+🧠 AI Project Showcase
+
+💼 Professional Portfolio Layout
+
+📬 Contact Integration
+
+🌙 Dark Theme Design
+
+---
+
+# 🛠️ Tech Arsenal
+
+## Frontend
+
+⚛️ React
+
+🎨 Tailwind CSS
+
+📘 TypeScript
+
+🌐 HTML5
+
+🎯 CSS3
+
+⚡ JavaScript
+
+## Backend
+
+🐍 Python
+
+🚀 Django
+
+🌐 Flask
+
+🔌 REST APIs
+
+## Database
+
+🗄️ MySQL
+
+📦 PostgreSQL
+
+📂 SQLite
+
+## Tools
+
+🐙 Git & GitHub
+
+💻 VS Code
+
+▲ Vercel
+
+📬 Postman
+
+🤖 ChatGPT
+
+✨ Gemini AI
+
+🚀 GitHub Copilot
+
+---
+
+# 🎯 Current Goals
+
+🌱 Master Django Development
+
+🌱 Build Production-Ready Applications
+
+🌱 Contribute to Open Source
+
+🌱 Learn Cloud Deployment
+
+🌱 Explore AI Integration
+
+🌱 Secure a Python Internship
+
+---
+
+# 📊 GitHub Analytics
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=HevinPatoliya7\&show_icons=true\&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=HevinPatoliya7\&layout=compact\&theme=tokyonight)
+
+</div>
+
+---
+
+# 🤝 Let's Connect
+
+💼 LinkedIn
+👉 https://www.linkedin.com/in/hevinpatoliya9106011772/
+
+🐙 GitHub
+👉 https://github.com/HevinPatoliya7
+
+🌐 Portfolio
+👉 https://mrhevin.vercel.app/
+
+---
+
+<div align="center">
+
+### ⭐ If you found this portfolio interesting, consider giving it a Star!
+
+🚀 Crafted with passion by **Hevin Patoliya**
+
+💙 Thanks for visiting!
+
+</div>
