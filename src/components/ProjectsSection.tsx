@@ -13,6 +13,7 @@ interface ProjectData {
   col2Image: string;
   glowColor: string;       // rgba for default glow
   glowColorHover: string;  // rgba for hover glow
+  borderColor: string;     // border color hex/rgb
 }
 
 const PROJECTS: ProjectData[] = [
@@ -20,45 +21,49 @@ const PROJECTS: ProjectData[] = [
         number: '01',
         category: 'Personal',
         name: 'Forge',
-        liveUrl: 'https://forge-pink-seven.vercel.app/',
+        liveUrl: 'https://forge-phi-rosy.vercel.app/',
         col1Image1: '/Forge.png',
         col1Image2: '/Forge1.png',
         col2Image: '/Forge2.png',
-        glowColor: 'rgba(0, 210, 255, 0.25)',       // Cyan
-        glowColorHover: 'rgba(0, 210, 255, 0.5)',
+        glowColor: 'rgba(190, 242, 100, 0.45)',       // Lime
+        glowColorHover: 'rgba(190, 242, 100, 0.75)',
+        borderColor: '#bef264',
       },
   {
       number: '02',
       category: 'Personal',
       name: 'LawLab',
-      liveUrl: 'https://lawlab-self.vercel.app',
+      liveUrl: 'https://lowlab-lilac.vercel.app/',
       col1Image1: '/lawlab.png',
       col1Image2: '/lawlab1.png',
       col2Image: '/lawlab2.png',
-      glowColor: 'rgba(16, 185, 129, 0.25)',         // Emerald green
-      glowColorHover: 'rgba(16, 185, 129, 0.5)',
+      glowColor: 'rgba(192, 132, 252, 0.45)',         // Lilac
+      glowColorHover: 'rgba(192, 132, 252, 0.75)',
+      borderColor: '#c084fc',
     },
   {
     number: '03',
     category: 'Personal · GenAI',
     name: 'ResumeIQ',
-    liveUrl: 'https://resumeiq-harsh.vercel.app/',
+    liveUrl: 'https://resumeiq-main-chi.vercel.app/',
     col1Image1: '/resumeiq-hero.png',
     col1Image2: '/resumeiq-feedback.png',
     col2Image: '/resumeiq-score.png',
-    glowColor: 'rgba(139, 92, 246, 0.25)',            // Violet / purple
-    glowColorHover: 'rgba(139, 92, 246, 0.5)',
+    glowColor: 'rgba(215, 226, 234, 0.35)',            // Silver/white
+    glowColorHover: 'rgba(215, 226, 234, 0.65)',
+    borderColor: '#D7E2EA',
   },
   {
     number: '04',
     category: 'Personal · Design',
     name: 'Notch',
-    liveUrl: 'https://notch-zeta.vercel.app/',
+    liveUrl: 'https://notch7.vercel.app/',
     col1Image1: '/notch-hero.png',
     col1Image2: '/notch-pricing.png',
     col2Image: '/notch-mockup.png',
-    glowColor: 'rgba(251, 191, 36, 0.25)',            // Amber / gold
-    glowColorHover: 'rgba(251, 191, 36, 0.5)',
+    glowColor: 'rgba(251, 191, 36, 0.45)',            // Amber / gold
+    glowColorHover: 'rgba(251, 191, 36, 0.75)',
+    borderColor: '#fbbf24',
   },
 ];
 
@@ -90,15 +95,15 @@ const ProjectCard = ({ project, index, total, containerRef }: ProjectCardProps) 
       style={{ top: `${96 + index * 28}px` }}
     >
       <motion.article
+        className="origin-top mx-auto h-full w-full flex flex-col gap-4 sm:gap-6 md:gap-8 rounded-[40px] sm:rounded-[50px] md:rounded-[60px] border-2 border-[#D7E2EA] bg-[#0C0C0C] p-4 sm:p-6 md:p-8"
         style={{
           scale,
-          boxShadow: `0 0 25px 8px ${project.glowColor}`,
+          boxShadow: `0 0 35px 12px ${project.glowColor}`,
           transition: 'box-shadow 0.4s ease',
         }}
         whileHover={{
-          boxShadow: `0 0 40px 15px ${project.glowColorHover}`,
+          boxShadow: `0 0 55px 20px ${project.glowColorHover}`,
         }}
-        className="origin-top mx-auto h-full w-full flex flex-col gap-4 sm:gap-6 md:gap-8 rounded-[40px] sm:rounded-[50px] md:rounded-[60px] border-2 border-[#D7E2EA] bg-[#0C0C0C] p-4 sm:p-6 md:p-8"
       >
           {/* Top row: number + meta + button */}
                   <div className="flex flex-col sm:flex-row items-start sm:justify-between gap-4 sm:gap-6">

@@ -1,9 +1,26 @@
-import { MessageCircle, Linkedin, Github, Twitter, Instagram, ArrowUpRight } from 'lucide-react';
+import { Linkedin, Github, Twitter, Instagram, ArrowUpRight } from 'lucide-react';
 import React, { useRef, useState } from 'react';
 import FadeIn from './FadeIn';
 
+const WhatsAppIcon = ({ className, size }: { className?: string; size?: number; strokeWidth?: number }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={className}
+    style={{ width: size, height: size }}
+  >
+    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+    <path d="M16 14.5c-.3.7-1.4 1.4-2 1.5-.5.1-1 .3-3.3-.6-2.9-1.2-4.7-4.1-4.9-4.3-.1-.2-1.2-1.6-1.2-3 0-1.4.7-2.1 1-2.4.3-.3.6-.4.8-.4.2 0 .4 0 .6.0.2.0.4-.1.6.5.2.6.8 2 .9 2.1.1.1.1.3 0 .5-.1.2-.1.3-.3.5-.1.2-.3.4-.4.5-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 2 .8.8 1.6 1 1.8 1.1.2.1.4.1.5-.1.1-.2.6-.7.7-.9.1-.2.3-.2.5-.1.2.1 1.3.6 1.5.7.2.1.4.2.5.3.1.1.1.6-.2 1.3z" />
+  </svg>
+);
+
 interface ContactMethod {
-  icon: typeof MessageCircle;
+  icon: React.ComponentType<any>;
   label: string;
   value: string;
   href: string;
@@ -12,7 +29,7 @@ interface ContactMethod {
 
 const CONTACT_METHODS: ContactMethod[] = [
   {
-    icon: MessageCircle,
+    icon: WhatsAppIcon,
     label: 'WhatsApp',
     value: '+91 9106011772',
     href: 'https://wa.me/919106011772',
@@ -151,18 +168,18 @@ const ContactSection = () => {
         ))}
       </div>
 
-      {/* Footer line */}
+      {/* Glassy Footer */}
       <FadeIn delay={0.4} y={20}>
-        <div className="mx-auto mt-20 sm:mt-24 md:mt-28 flex max-w-5xl flex-col items-center gap-3 border-t border-[#D7E2EA]/10 pt-8 text-center sm:flex-row sm:justify-between">
+        <div className="mx-auto mt-20 sm:mt-24 md:mt-28 flex max-w-5xl flex-col items-center gap-3 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md px-6 py-5 text-center sm:flex-row sm:justify-between shadow-lg shadow-black/20">
           <span
-            className="font-light uppercase tracking-widest text-[#D7E2EA]/50"
-            style={{ fontSize: 'clamp(0.7rem, 1.1vw, 0.9rem)' }}
+            className="font-light uppercase tracking-widest text-[#D7E2EA]/60"
+            style={{ fontSize: 'clamp(0.7rem, 1.1vw, 0.85rem)' }}
           >
             © 2026 Hevin Patoliya
           </span>
           <span
-            className="font-light uppercase tracking-widest text-[#D7E2EA]/50"
-            style={{ fontSize: 'clamp(0.7rem, 1.1vw, 0.9rem)' }}
+            className="font-light uppercase tracking-widest text-[#D7E2EA]/60"
+            style={{ fontSize: 'clamp(0.7rem, 1.1vw, 0.85rem)' }}
           >
             Designed & built in Ahmedabad
           </span>
